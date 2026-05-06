@@ -1,0 +1,2481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Nepal | A Journey Through Culture & Heritage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap)" rel="stylesheet">
+    <link rel="stylesheet" href="[cdnjs.cloudflare.com](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css)">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <a href="#" class="logo">Discover <span>Nepal</span></a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#people">People</a></li>
+            <li><a href="#festivals">Festivals</a></li>
+            <li><a href="#cuisine">Cuisine</a></li>
+            <li><a href="#arts">Arts</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <video class="hero-video" autoplay muted loop playsinline poster="Photos/Screenshot 2026-05-07 033917.png">
+            <source src="scene.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Experience the Soul of <span>Nepal</span></h1>
+            <p>Where ancient traditions meet breathtaking landscapes. Discover a land where every festival tells a story, every temple holds a secret, and every smile welcomes you home.</p>
+            <a href="#countdown" class="btn">Explore Culture</a>
+            <a href="#history" class="btn btn-outline">Our Heritage</a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Quick Facts -->
+    <section class="quick-facts">
+        <div class="fact-card">
+            <i class="fas fa-users"></i>
+            <h3>125+</h3>
+            <p>Ethnic Groups</p>
+        </div>
+        <div class="fact-card">
+            <i class="fas fa-language"></i>
+            <h3>123</h3>
+            <p>Languages Spoken</p>
+        </div>
+        <div class="fact-card">
+            <i class="fas fa-landmark"></i>
+            <h3>10</h3>
+            <p>UNESCO World Heritage Sites</p>
+        </div>
+        <div class="fact-card">
+            <i class="fas fa-mountain"></i>
+            <h3>8</h3>
+            <p>of World's 10 Highest Peaks</p>
+        </div>
+        <div class="fact-card">
+            <i class="fas fa-calendar-alt"></i>
+            <h3>50+</h3>
+            <p>Annual Festivals</p>
+        </div>
+    </section>
+
+    <!-- Festival Countdown -->
+    <section class="countdown-section" id="countdown">
+        <h2>🎉 Next Festival Countdown</h2>
+        <p class="subtitle" id="festivalName">Loading next festival...</p>
+        <div class="countdown-container">
+            <div class="countdown-box">
+                <div class="number" id="days">00</div>
+                <div class="label">Days</div>
+            </div>
+            <div class="countdown-box">
+                <div class="number" id="hours">00</div>
+                <div class="label">Hours</div>
+            </div>
+            <div class="countdown-box">
+                <div class="number" id="minutes">00</div>
+                <div class="label">Minutes</div>
+            </div>
+            <div class="countdown-box">
+                <div class="number" id="seconds">00</div>
+                <div class="label">Seconds</div>
+            </div>
+        </div>
+        <p class="festival-info" id="festivalInfo">Nepal celebrates more festivals than days in a year!</p>
+    </section>
+
+    <!-- Featured Story -->
+    <section class="featured-story">
+        <div class="section-header">
+            <h2>Featured Story</h2>
+            <p>Discover the stories that make Nepal extraordinary</p>
+            <div class="underline"></div>
+        </div>
+        <div class="story-card">
+            <div class="story-image">
+                <span class="story-badge">Festival of the Month</span>
+                <img src="Photos/Screenshot 2026-05-07 003112.png" alt="Buddha Jayanti Celebration">
+            </div>
+            <div class="story-content">
+                <h3>Buddha Jayanti: Celebrating the Enlightened One</h3>
+                <p>May marks one of Nepal's most sacred celebrations—Buddha Jayanti, commemorating the birth, enlightenment, and passing of Siddhartha Gautama, who was born in Lumbini, Nepal.</p>
+                <p>Thousands of pilgrims gather at Boudhanath and Swayambhunath stupas, lighting butter lamps and walking the sacred kora path. The air fills with incense, the sound of mantras, and a palpable sense of peace.</p>
+                <a href="#festivals" class="btn">Explore All Festivals</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section class="history-section" id="history">
+        <div class="section-header">
+            <h2>History & Heritage</h2>
+            <p>Millennia of rich history shaped by diverse dynasties</p>
+            <div class="underline"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">~800 BCE - 300 CE</span>
+                    <h4>Kirat Dynasty</h4>
+                    <p>The earliest rulers of Nepal, known for establishing the foundation of Nepali society and culture. They worshipped nature and ancestors.</p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">400 - 750 CE</span>
+                    <h4>Licchavi Period</h4>
+                    <p>A golden age of art and architecture. The famous Changu Narayan Temple dates from this era. Trade flourished with Tibet and India.</p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">1200 - 1769 CE</span>
+                    <h4>Malla Dynasty</h4>
+                    <p>The era that gave us the stunning Durbar Squares of Kathmandu, Patan, and Bhaktapur. Arts, literature, and architecture flourished.</p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">1769 - 2008 CE</span>
+                    <h4>Shah Dynasty</h4>
+                    <p>Prithvi Narayan Shah unified Nepal. The Shah kings ruled until 2008, seeing Nepal through tremendous political changes.</p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">2008 - Present</span>
+                    <h4>Federal Democratic Republic</h4>
+                    <p>Nepal transitioned from a monarchy to a federal democratic republic, adopting a new constitution in 2015.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architecture Section -->
+    <section class="architecture-section">
+        <div class="section-header">
+            <h2>Architectural Marvels</h2>
+            <p>Distinctive styles that define Nepal's cultural landscape</p>
+            <div class="underline"></div>
+        </div>
+        <div class="arch-grid">
+            <div class="arch-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 005908.png" alt="Pagoda Temple">
+                <div class="arch-card-content">
+                    <h4>Pagoda Style</h4>
+                    <p>Originating in Nepal, this multi-tiered temple architecture later spread to China and Japan. The Nyatapola Temple in Bhaktapur is a stunning five-story example.</p>
+                </div>
+            </div>
+            <div class="arch-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 005928.png" alt="Shikhara Temple">
+                <div class="arch-card-content">
+                    <h4>Shikhara Style</h4>
+                    <p>Influenced by Indian architecture, these conical spires grace temples like Krishna Mandir in Patan. The geometric precision is breathtaking.</p>
+                </div>
+            </div>
+            <div class="arch-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 005954.png" alt="Newari Woodcarving">
+                <div class="arch-card-content">
+                    <h4>Newari Woodcarving</h4>
+                    <p>The Newar artisans are masters of intricate woodwork—peacock windows, strut carvings, and toran gateways that tell stories of gods and demons.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- People & Map Section -->
+    <section class="map-section" id="people">
+        <div class="section-header">
+            <h2>The Ethnic Tapestry</h2>
+            <p>Explore Nepal's diverse communities across three distinct geographical regions</p>
+            <div class="underline"></div>
+        </div>
+        <div class="map-container">
+            <div class="nepal-map">
+                <svg viewBox="0 0 400 200" xmlns="[w3.org](http://www.w3.org/2000/svg)">
+                    <!-- Simplified Nepal map with three regions -->
+                    <path id="himal" d="M50,20 Q100,10 150,15 Q200,5 250,20 Q300,15 350,30 L340,60 Q280,50 220,55 Q160,45 100,55 Q70,50 50,55 Z" data-region="himal"/>
+                    <path id="pahad" d="M50,55 Q70,50 100,55 Q160,45 220,55 Q280,50 340,60 L330,110 Q270,100 210,105 Q150,95 90,105 Q60,100 40,105 Z" data-region="pahad"/>
+                    <path id="terai" d="M40,105 Q60,100 90,105 Q150,95 210,105 Q270,100 330,110 L320,150 Q260,160 200,155 Q140,165 80,155 Q50,160 30,150 Z" data-region="terai"/>
+                </svg>
+            </div>
+            <div class="region-info">
+                <div class="region-buttons">
+                    <button class="region-btn active" data-region="himal">Himal (Mountains)</button>
+                    <button class="region-btn" data-region="pahad">Pahad (Hills)</button>
+                    <button class="region-btn" data-region="terai">Terai (Plains)</button>
+                </div>
+                <div id="region-content">
+                    <h3>Himalayan Region</h3>
+                    <p>The roof of the world, home to Mount Everest and communities adapted to high-altitude life for millennia.</p>
+                    <h4>Dominant Communities</h4>
+                    <ul>
+                        <li>Sherpa</li>
+                        <li>Tamang</li>
+                        <li>Dolpo-pa</li>
+                        <li>Thakali</li>
+                        <li>Manang-pa</li>
+                    </ul>
+                    <h4>Known For</h4>
+                    <p>Mountaineering expertise, Tibetan Buddhism, yak herding, and the famous Sherpa hospitality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Traditions Gallery -->
+    <section class="traditions-section">
+        <div class="section-header">
+            <h2>Traditions & Attire</h2>
+            <p>The vibrant clothing and customs that define Nepal's communities</p>
+            <div class="underline"></div>
+        </div>
+        <div class="traditions-grid">
+            <div class="tradition-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 010354.png" alt="Daura Suruwal">
+                <div class="tradition-overlay">
+                    <h4>Daura Suruwal</h4>
+                    <p>The national dress of Nepal, featuring a cross-front shirt and fitted trousers, often paired with a Dhaka topi.</p>
+                </div>
+            </div>
+            <div class="tradition-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 010421.png" alt="Gunyo Cholo">
+                <div class="tradition-overlay">
+                    <h4>Gunyo Cholo</h4>
+                    <p>The traditional women's attire—a sari-like garment paired with a blouse, adorned with stunning gold jewelry.</p>
+                </div>
+            </div>
+            <div class="tradition-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 010457.png" alt="Sherpa Attire">
+                <div class="tradition-overlay">
+                    <h4>Sherpa Traditional Dress</h4>
+                    <p>Warm woolen chubas and colorful striped aprons designed for high-altitude living.</p>
+                </div>
+            </div>
+            <div class="tradition-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 010614.png" alt="Tharu Culture">
+                <div class="tradition-overlay">
+                    <h4>Tharu Heritage</h4>
+                    <p>The indigenous people of the Terai, known for their stick dances, distinctive tattoos, and longhouse living.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Language Corner -->
+    <section class="language-section">
+        <div class="section-header">
+            <h2>Language Corner</h2>
+            <p>Learn common phrases in Nepal's languages</p>
+            <div class="underline"></div>
+        </div>
+        <div class="language-container">
+            <div class="language-tabs">
+                <button class="lang-tab active" data-lang="nepali">Nepali</button>
+                <button class="lang-tab" data-lang="newari">Newari</button>
+                <button class="lang-tab" data-lang="tamang">Tamang</button>
+            </div>
+            <div class="phrases-grid" id="phrases-grid">
+                <!-- Phrases will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Festivals Section -->
+    <section class="festivals-section" id="festivals">
+        <div class="section-header">
+            <h2>Festivals & Celebrations</h2>
+            <p>"More festivals than days in a year"</p>
+            <div class="underline"></div>
+        </div>
+        <div class="festival-grid">
+            <div class="festival-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 003325.png" alt="Dashain">
+                <div class="festival-card-content">
+                    <h4>Dashain</h4>
+                    <span class="date">October (15 days)</span>
+                    <p>Nepal's longest and most significant festival, celebrating the victory of good over evil. Families reunite, kites fill the sky, and elders give tika blessings.</p>
+                </div>
+            </div>
+            <div class="festival-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 003544.png" alt="Tihar">
+                <div class="festival-card-content">
+                    <h4>Tihar</h4>
+                    <span class="date">October/November (5 days)</span>
+                    <p>The festival of lights honoring crows, dogs, cows, and siblings. Homes glow with oil lamps and colorful rangoli decorations.</p>
+                </div>
+            </div>
+            <div class="festival-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 003649.png" alt="Holi">
+                <div class="festival-card-content">
+                    <h4>Holi</h4>
+                    <span class="date">March (2 days)</span>
+                    <p>The exuberant festival of colors marking spring's arrival. Streets become canvases of joy as people splash each other with colored powder.</p>
+                </div>
+            </div>
+            <div class="festival-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 003835.png" alt="Chhath">
+                <div class="festival-card-content">
+                    <h4>Chhath</h4>
+                    <span class="date">October/November (4 days)</span>
+                    <p>An ancient Vedic festival dedicated to the Sun God, observed primarily in the Terai. Devotees fast and stand in water at sunrise and sunset.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Religious Harmony -->
+    <section class="religion-section">
+        <div class="section-header">
+            <h2>Religious Harmony</h2>
+            <p>Where Hinduism and Buddhism embrace as one</p>
+            <div class="underline"></div>
+        </div>
+        <div class="religion-container">
+            <div class="religion-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 003934.png" alt="Pashupatinath">
+                <h4>Pashupatinath Temple</h4>
+                <p>One of the holiest Hindu temples in the world, dedicated to Lord Shiva. The sacred Bagmati River flows alongside, where cremation ceremonies continue an ancient tradition.</p>
+            </div>
+            <div class="religion-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 004018.png" alt="Boudhanath">
+                <h4>Boudhanath Stupa</h4>
+                <p>One of the largest spherical stupas in the world, the eyes of Buddha gaze in all four directions. Tibetan refugees have made this their spiritual home since 1959.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kumari Section -->
+    <section class="kumari-section">
+        <div class="kumari-content">
+            <div class="kumari-text">
+                <h2>The Living Goddess: Kumari</h2>
+                <p>Nepal is home to one of the world's most unique religious traditions—the worship of a living goddess. The Kumari is a prepubescent girl selected from the Newar Buddhist community who is believed to be the incarnation of the goddess Taleju.</p>
+                <p>Chosen through an ancient and rigorous selection process, she must possess 32 specific physical attributes and show no fear during tantric rituals. The Kumari lives in the ornate Kumari Ghar in Kathmandu's Durbar Square.</p>
+                <p>Her feet must never touch the ground outside her palace, and her public appearances are considered deeply auspicious. When she reaches puberty, she returns to normal life, and a new Kumari is selected.</p>
+            </div>
+            <div class="kumari-image">
+                <img src="Photos/Screenshot 2026-05-07 004222.png" alt="Kumari Ghar">
+            </div>
+        </div>
+    </section>
+
+    <!-- Cuisine Section -->
+    <section class="cuisine-section" id="cuisine">
+        <div class="section-header">
+            <h2>The Bhojan (Cuisine)</h2>
+            <p>Beyond the momo—discover Nepal's rich culinary heritage</p>
+            <div class="underline"></div>
+        </div>
+        <div class="cuisine-grid">
+            <div class="dish-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 004635.png" alt="Dal Bhat">
+                <div class="dish-card-content">
+                    <h4>Dal Bhat Power</h4>
+                    <p>The quintessential Nepali meal—lentil soup, rice, vegetables, pickles, and meat. "Dal Bhat power, 24 hour!"</p>
+                    <button class="recipe-btn" onclick="openRecipe('dalbhat')">View Recipe</button>
+                </div>
+            </div>
+            <div class="dish-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 004703.png" alt="Momo">
+                <div class="dish-card-content">
+                    <h4>Momo</h4>
+                    <p>Nepal's beloved dumplings, steamed or fried, filled with spiced meat or vegetables and served with fiery tomato achar.</p>
+                    <button class="recipe-btn" onclick="openRecipe('momo')">View Recipe</button>
+                </div>
+            </div>
+            <div class="dish-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 004726.png" alt="Dhido">
+                <div class="dish-card-content">
+                    <h4>Dhido</h4>
+                    <p>Traditional buckwheat or millet pudding, eaten with your hands alongside gundruk (fermented greens) and meat.</p>
+                    <button class="recipe-btn" onclick="openRecipe('dhido')">View Recipe</button>
+                </div>
+            </div>
+            <div class="dish-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 004748.png" alt="Yomari">
+                <div class="dish-card-content">
+                    <h4>Yomari</h4>
+                    <p>A Newari delicacy—fish-shaped rice flour dumplings filled with sweet molasses and sesame, made during Yomari Punhi.</p>
+                    <button class="recipe-btn" onclick="openRecipe('yomari')">View Recipe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tea Section -->
+    <section class="tea-section">
+        <div class="tea-content">
+            <div class="tea-text">
+                <h3>☕ Chiya Culture: More Than Just Tea</h3>
+                <p>In Nepal, tea isn't just a beverage—it's a social institution. Whether it's a construction worker on a dusty road or a businessman in Kathmandu, everyone pauses for "chiya."</p>
+                <p><strong>Ilam Tea:</strong> Grown in the misty hills of eastern Nepal, Ilam tea rivals Darjeeling in quality. The orthodox tea from this region is prized for its golden liquor and muscatel notes.</p>
+                <p><strong>Masala Chiya:</strong> The everyday tea—black tea boiled with milk, sugar, and spices like cardamom, ginger, and cinnamon. It's served everywhere from mountain teahouses to city cafes.</p>
+                <p>The phrase "Chiya khanus" (please have tea) is the universal Nepali welcome.</p>
+            </div>
+            <div class="tea-image">
+                <img src="Photos/Screenshot 2026-05-07 004938.png" alt="Nepali Tea">
+            </div>
+        </div>
+    </section>
+
+    <!-- Arts Section -->
+    <section class="arts-section" id="arts">
+        <div class="section-header">
+            <h2>Arts & Crafts</h2>
+            <p>Centuries-old traditions kept alive by master artisans</p>
+            <div class="underline"></div>
+        </div>
+        <div class="crafts-grid">
+            <div class="craft-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 005003.png" alt="Thangka Painting">
+                <div class="craft-card-content">
+                    <h4>Thangka Paintings</h4>
+                    <p>These intricate Buddhist scroll paintings depict deities, mandalas, and spiritual scenes. Artisans train for years to master the precise techniques passed down through generations.</p>
+                </div>
+            </div>
+            <div class="craft-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 005028.png" alt="Pottery">
+                <div class="craft-card-content">
+                    <h4>Bhaktapur Pottery</h4>
+                    <p>Potter's Square in Bhaktapur has been producing traditional earthenware for centuries. Watch artisans shape clay on kick-wheels, just as their ancestors did.</p>
+                </div>
+            </div>
+            <div class="craft-card fade-in">
+                <img src="Photos/Screenshot 2026-05-07 005056.png" alt="Khukuri">
+                <div class="craft-card-content">
+                    <h4>The Khukuri</h4>
+                    <p>The iconic curved knife of the Gurkhas, a symbol of Nepali identity and bravery. Each blade is hand-forged and carries deep cultural significance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section class="music-section">
+        <div class="section-header">
+            <h2>The Sound of Nepal</h2>
+            <p>Traditional instruments and melodies that echo through the valleys</p>
+            <div class="underline"></div>
+        </div>
+        <div class="music-container">
+            <div class="instrument-showcase">
+                <div class="instrument-card">
+                    <img src="Photos/Screenshot 2026-05-07 005225.png" alt="Madal">
+                    <h4>Madal</h4>
+                    <p>The hand drum that forms the heartbeat of Nepali folk music. Its distinctive double-headed rhythm drives every celebration.</p>
+                    <button class="sound-btn" onclick="playSound('madal')">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+                <div class="instrument-card">
+                    <img src="Photos/Screenshot 2026-05-07 005324.png" alt="Sarangi">
+                    <h4>Sarangi</h4>
+                    <p>A bowed string instrument played by the Gandharba community, traditionally used by wandering minstrels to tell stories.</p>
+                    <button class="sound-btn" onclick="playSound('sarangi')">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+                <div class="instrument-card">
+                    <img src="Photos/Screenshot 2026-05-07 005342.png" alt="Bansuri">
+                    <h4>Bansuri</h4>
+                    <p>The bamboo flute, associated with Lord Krishna, creates the melodic soundscape of the Himalayan hills.</p>
+                    <button class="sound-btn" onclick="playSound('bansuri')">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="folk-songs">
+                <h3>🎵 Traditional Folk Songs</h3>
+                <div class="song-list">
+                    <div class="song-item" onclick="playSong('resham')">
+                        <i class="fas fa-music"></i>
+                        <span class="song-title">Resham Firiri</span>
+                        <span class="song-duration">The iconic Nepali folk song</span>
+                    </div>
+                    <div class="song-item" onclick="playSong('sayaun')">
+                        <i class="fas fa-music"></i>
+                        <span class="song-title">Sayaun Thunga Phool Ka</span>
+                        <span class="song-duration">National Anthem</span>
+                    </div>
+                    <div class="song-item" onclick="playSong('nepali')">
+                        <i class="fas fa-music"></i>
+                        <span class="song-title">Nepali Folk Medley</span>
+                        <span class="song-duration">Traditional melodies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipe Modal -->
+    <div class="modal" id="recipeModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeRecipe()">×</button>
+            <div class="modal-header">
+                <h3 id="recipe-title">Recipe</h3>
+            </div>
+            <div class="modal-body" id="recipe-body">
+                <!-- Recipe content loaded by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Discover Nepal</h4>
+                <p>A passion project dedicated to sharing the rich cultural heritage, traditions, and beauty of Nepal with the world. Namaste! 🙏</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#people">People</a></li>
+                    <li><a href="#festivals">Festivals</a></li>
+                    <li><a href="#cuisine">Cuisine</a></li>
+                    <li><a href="#arts">Arts</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Plan Your Visit</h4>
+                <ul>
+                    <li><a href="#">Travel Guide</a></li>
+                    <li><a href="#">Trekking Routes</a></li>
+                    <li><a href="#">Cultural Tours</a></li>
+                    <li><a href="#">Festivals Calendar</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Discover Nepal. Made with ❤️ for Nepali Culture</p>
+        </div>
+    </footer>
+
+    <script>
+        // Navigation scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+
+        // Festival Countdown System
+        const festivals = [
+            { name: "Buddha Jayanti", date: "2026-05-12", info: "Celebrating the birth of Lord Buddha in Lumbini, Nepal's most sacred Buddhist festival." },
+            { name: "Ropai Jatra (Rice Planting)", date: "2026-06-29", info: "Farmers celebrate the beginning of rice planting season with mud festivals and folk dances." },
+            { name: "Janai Purnima", date: "2026-08-09", info: "Sacred thread ceremony where Brahmins change their janai (sacred thread) and people tie raksha bandhan." },
+            { name: "Gai Jatra", date: "2026-08-10", info: "Festival of cows honoring the deceased. Families parade through streets with humor and satire." },
+            { name: "Teej", date: "2026-08-26", info: "Women's festival celebrating marital devotion with fasting, dancing, and red attire." },
+            { name: "Indra Jatra", date: "2026-09-10", info: "Kathmandu's biggest street festival honoring Lord Indra with masked dances and the Kumari procession." },
+            { name: "Dashain", date: "2026-10-15", info: "Nepal's longest festival celebrating victory of good over evil. 15 days of family reunions and blessings." },
+            { name: "Tihar", date: "2026-11-01", info: "Festival of lights honoring Laxmi, crows, dogs, cows and siblings. Homes glow with oil lamps." },
+            { name: "Chhath Puja", date: "2026-11-05", info: "Ancient Vedic festival worshipping the Sun God. Devotees fast and offer prayers at water bodies." },
+            { name: "Mha Puja", date: "2026-11-02", info: "Newari festival of self-worship marking the Newari New Year with elaborate rituals." },
+            { name: "Losar (Tibetan New Year)", date: "2027-02-18", info: "Tibetan and Sherpa New Year celebrated with monastery visits, feasts, and traditional dances." },
+            { name: "Holi", date: "2027-03-14", info: "Festival of colors celebrating spring and the triumph of good over evil." },
+            { name: "Bisket Jatra", date: "2027-04-14", info: "Bhaktapur's New Year celebration with chariot processions and the famous pole raising." }
+        ];
+
+        function updateCountdown() {
+            const now = new Date();
+            let nextFestival = null;
+            let minDiff = Infinity;
+
+            for (const festival of festivals) {
+                const festDate = new Date(festival.date + 'T00:00:00');
+                const diff = festDate - now;
+                if (diff > 0 && diff < minDiff) {
+                    minDiff = diff;
+                    nextFestival = { ...festival, dateObj: festDate };
+                }
+            }
+
+            if (nextFestival) {
+                const diff = nextFestival.dateObj - now;
+                const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+                document.getElementById('days').textContent = String(days).padStart(2, '0');
+                document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+                document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+                document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+                document.getElementById('festivalName').textContent = nextFestival.name + ' — ' + nextFestival.dateObj.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+                document.getElementById('festivalInfo').textContent = nextFestival.info;
+            }
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        // Interactive Map - Region Data
+        const regionData = {
+            himal: {
+                title: "Himalayan Region",
+                description: "The roof of the world, home to Mount Everest and communities adapted to high-altitude life for millennia.",
+                communities: ["Sherpa", "Tamang", "Dolpo-pa", "Thakali", "Manang-pa", "Walungpa"],
+                knownFor: "Mountaineering expertise, Tibetan Buddhism, yak herding, and the famous Sherpa hospitality."
+            },
+            pahad: {
+                title: "Hill Region (Pahad)",
+                description: "The heartland of Nepal, where terraced farms cascade down hillsides and ancient traditions thrive.",
+                communities: ["Gurung", "Magar", "Newar", "Rai", "Limbu", "Chhetri", "Brahmin"],
+                knownFor: "Terraced agriculture, rich folk music, the legendary Gurkha warriors, and vibrant Newari culture."
+            },
+            terai: {
+                title: "Terai Plains",
+                description: "Nepal's southern lowlands, a cultural bridge to India with unique indigenous communities.",
+                communities: ["Tharu", "Maithili", "Bhojpuri", "Rajbanshi", "Dhimal", "Satar"],
+                knownFor: "Stick dances, elephant breeding, Chitwan National Park, and the birthplace of Buddha in Lumbini."
+            }
+        };
+
+        // Region buttons interaction
+        document.querySelectorAll('.region-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.region-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const region = this.dataset.region;
+                updateRegionInfo(region);
+                
+                // Update map highlighting
+                document.querySelectorAll('.nepal-map path').forEach(p => p.classList.remove('active'));
+                document.getElementById(region).classList.add('active');
+            });
+        });
+
+        // Map path click interaction
+        document.querySelectorAll('.nepal-map path').forEach(path => {
+            path.addEventListener('click', function() {
+                const region = this.dataset.region;
+                document.querySelectorAll('.region-btn').forEach(b => b.classList.remove('active'));
+                document.querySelector(`.region-btn[data-region="${region}"]`).classList.add('active');
+                document.querySelectorAll('.nepal-map path').forEach(p => p.classList.remove('active'));
+                this.classList.add('active');
+                updateRegionInfo(region);
+            });
+        });
+
+        function updateRegionInfo(region) {
+            const data = regionData[region];
+            const content = document.getElementById('region-content');
+            content.innerHTML = `
+                <h3>${data.title}</h3>
+                <p>${data.description}</p>
+                <h4>Dominant Communities</h4>
+                <ul>${data.communities.map(c => `<li>${c}</li>`).join('')}</ul>
+                <h4>Known For</h4>
+                <p>${data.knownFor}</p>
+            `;
+        }
+
+        // Language phrases data
+        const phrases = {
+            nepali: [
+                { english: "Hello / Greetings", native: "नमस्ते", pronunciation: "Namaste" },
+                { english: "Thank you", native: "धन्यवाद", pronunciation: "Dhanyabad" },
+                { english: "How are you?", native: "तपाईंलाई कस्तो छ?", pronunciation: "Tapailai kasto cha?" },
+                { english: "I'm fine", native: "म ठिक छु", pronunciation: "Ma thik chu" },
+                { english: "What is your name?", native: "तपाईंको नाम के हो?", pronunciation: "Tapaiko naam ke ho?" },
+                { english: "Delicious!", native: "मिठो!", pronunciation: "Mitho!" },
+                { english: "Goodbye", native: "फेरि भेटौंला", pronunciation: "Pheri bhetaunla" },
+                { english: "Beautiful", native: "राम्रो", pronunciation: "Ramro" }
+            ],
+            newari: [
+                { english: "Hello", native: "ज्वजलपा", pronunciation: "Jwojalapa" },
+                { english: "Thank you", native: "सुभाय्", pronunciation: "Subhay" },
+                { english: "How are you?", native: "छिं गथे दु?", pronunciation: "Chhin gathe du?" },
+                { english: "I'm fine", native: "जि भिं दु", pronunciation: "Ji bhin du" },
+                { english: "What is your name?", native: "छिगु नां गथे खः?", pronunciation: "Chigu nan gathe kha?" },
+                { english: "Delicious!", native: "बाय्!", pronunciation: "Bay!" }
+            ],
+            tamang: [
+                { english: "Hello", native: "लासो", pronunciation: "Lasso" },
+                { english: "Thank you", native: "तुजी छेबा", pronunciation: "Tuji cheba" },
+                { english: "How are you?", native: "खोरो कसो मुला?", pronunciation: "Khoro kaso mula?" },
+                { english: "I'm fine", native: "ज्याबा मुला", pronunciation: "Jyaba mula" },
+                { english: "What is your name?", native: "खोरो मिन गाला?", pronunciation: "Khoro min gala?" },
+                { english: "Goodbye", native: "ठिक मुद्", pronunciation: "Thik mud" }
+            ]
+        };
+
+        // Language tab switching
+        document.querySelectorAll('.lang-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                document.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+                loadPhrases(this.dataset.lang);
+            });
+        });
+
+        function loadPhrases(lang) {
+            const grid = document.getElementById('phrases-grid');
+            const langPhrases = phrases[lang];
+            grid.innerHTML = langPhrases.map((phrase, index) => `
+                <div class="phrase-card">
+                    <button class="play-btn" onclick="speakPhrase('${phrase.pronunciation}')">
+                        <i class="fas fa-volume-up"></i>
+                    </button>
+                    <div class="phrase-text">
+                        <div class="english">${phrase.english}</div>
+                        <div class="nepali">${phrase.native}</div>
+                        <div class="pronunciation">${phrase.pronunciation}</div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Initialize with Nepali
+        loadPhrases('nepali');
+
+        // Text-to-speech for phrases
+        function speakPhrase(text) {
+            if ('speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.rate = 0.8;
+                speechSynthesis.speak(utterance);
+            }
+        }
+
+        // Recipes data
+        const recipes = {
+            dalbhat: {
+                title: "Dal Bhat (Lentil Soup & Rice)",
+                ingredients: [
+                    "1 cup yellow lentils (masoor dal)",
+                    "2 cups basmati rice",
+                    "1 onion, diced",
+                    "3 cloves garlic, minced",
+                    "1 inch ginger, grated",
+                    "1 tomato, chopped",
+                    "1 tsp turmeric",
+                    "1 tsp cumin seeds",
+                    "Salt to taste",
+                    "Fresh cilantro",
+                    "2 tbsp ghee or oil"
+                ],
+                instructions: [
+                    "Wash rice and cook in a rice cooker or pot until fluffy.",
+                    "Wash lentils thoroughly and boil with turmeric until soft (about 20 minutes).",
+                    "In a separate pan, heat ghee and add cumin seeds until they splutter.",
+                    "Add onion, garlic, and ginger. Sauté until golden.",
+                    "Add tomatoes and cook until soft.",
+                    "Pour this tempering (tarka) into the cooked lentils.",
+                    "Season with salt and garnish with fresh cilantro.",
+                    "Serve hot dal over rice with pickle (achar) and vegetables."
+                ]
+            },
+            momo: {
+                title: "Momo (Nepali Dumplings)",
+                ingredients: [
+                    "2 cups all-purpose flour",
+                    "500g minced chicken or buffalo",
+                    "1 onion, finely chopped",
+                    "4 cloves garlic, minced",
+                    "1 inch ginger, grated",
+                    "2 tbsp oil",
+                    "1 tsp cumin powder",
+                    "Salt and pepper",
+                    "Fresh cilantro, chopped",
+                    "Water for steaming"
+                ],
+                instructions: [
+                    "Make dough: Mix flour with water to form a soft, pliable dough. Rest for 30 minutes.",
+                    "Prepare filling: Mix meat with onion, garlic, ginger, cumin, oil, salt, pepper, and cilantro.",
+                    "Roll dough into small circles (3-inch diameter).",
+                    "Place a spoonful of filling in the center.",
+                    "Fold and pleat the edges to form crescent or round shapes.",
+                    "Steam in a momo steamer for 10-12 minutes.",
+                    "Serve hot with tomato-based achar (dipping sauce)."
+                ]
+            },
+            dhido: {
+                title: "Dhido (Traditional Buckwheat Pudding)",
+                ingredients: [
+                    "2 cups buckwheat flour (or millet flour)",
+                    "4 cups water",
+                    "Salt to taste"
+                ],
+                instructions: [
+                    "Bring water to a boil in a heavy-bottomed pot.",
+                    "Slowly add flour while stirring continuously to avoid lumps.",
+                    "Reduce heat and keep stirring with a wooden paddle (daabilo).",
+                    "The mixture will thicken and pull away from the sides—this takes 15-20 minutes.",
+                    "The dhido is ready when it forms a smooth, thick mass.",
+                    "Serve hot with gundruk ko jhol (fermented vegetable soup), meat curry, and pickle.",
+                    "Traditionally eaten by making small balls with your fingers and dipping."
+                ]
+            },
+            yomari: {
+                title: "Yomari (Sweet Rice Dumplings)",
+                ingredients: [
+                    "2 cups rice flour",
+                    "1 cup warm water",
+                    "1 cup chaku (molasses) or jaggery",
+                    "2 tbsp sesame seeds, toasted",
+                    "1 tbsp grated coconut (optional)"
+                ],
+                instructions: [
+                    "Mix rice flour with warm water to make a soft dough. Cover and rest.",
+                    "Prepare filling: Mix chaku/jaggery with sesame seeds and coconut.",
+                    "Take a small ball of dough and shape it into a cone with hollow center.",
+                    "Fill the cone with the sweet mixture.",
+                    "Pinch and twist the top to seal, creating the classic fish-tail shape.",
+                    "Steam for 15-20 minutes until the dough is cooked through.",
+                    "Serve warm. Traditionally made during Yomari Punhi festival in December."
+                ]
+            }
+        };
+
+        function openRecipe(dish) {
+            const recipe = recipes[dish];
+            document.getElementById('recipe-title').textContent = recipe.title;
+            document.getElementById('recipe-body').innerHTML = `
+                <h4>Ingredients</h4>
+                <ul>${recipe.ingredients.map(i => `<li>${i}</li>`).join('')}</ul>
+                <h4>Instructions</h4>
+                <ol>${recipe.instructions.map(i => `<li>${i}</li>`).join('')}</ol>
+            `;
+            document.getElementById('recipeModal').classList.add('active');
+        }
+
+        function closeRecipe() {
+            document.getElementById('recipeModal').classList.remove('active');
+        }
+
+        // Close modal on outside click
+        document.getElementById('recipeModal').addEventListener('click', function(e) {
+            if (e.target === this) closeRecipe();
+        });
+
+        // Sound/Music placeholders (would need actual audio files)
+     // We declare these variables outside the function so they are remembered between clicks
+// Trackers
+let currentAudio = null;
+let currentInstrument = null;
+let currentButton = null;
+let currentSongKey = null; 
+
+const songNames = {
+    resham: "Resham Firiri",
+    sayaun: "Sayaun Thunga Phool Ka (National Anthem)",
+    nepali: "Nepali Folk Medley"
+};
+
+function playSound(instrument) {
+    const btn = event.target.closest('.sound-btn');
+
+    // SCENARIO 1: The user clicked the exact same instrument that is already loaded
+    if (currentInstrument === instrument && currentAudio) {
+        if (currentAudio.paused) {
+            currentAudio.play().catch(console.error);
+            if (btn) btn.classList.add('audio-playing');
+        } else {
+            currentAudio.pause();
+            if (btn) btn.classList.remove('audio-playing');
+        }
+        return; 
+    }
+
+    // SCENARIO 2: The user clicked a new instrument
+    if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0; 
+        if (currentButton) currentButton.classList.remove('audio-playing');
+    }
+
+    // 🔴 THE FIX: Clear the song tracker so it doesn't conflict
+    currentSongKey = null; 
+
+    // Set up the new audio track
+    currentInstrument = instrument;
+    currentButton = btn;
+    currentAudio = new Audio(`/Songs/${instrument}.mp3`);
+
+    if (btn) {
+        btn.classList.add('audio-playing');
+    }
+
+    currentAudio.play().catch(error => {
+        console.error("Error playing audio:", error);
+    });
+
+    currentAudio.addEventListener('ended', () => {
+        if (btn) btn.classList.remove('audio-playing');
+        currentAudio = null;
+        currentInstrument = null;
+    });
+}
+
+function playSong(song) {
+    // 1. Did the user click the same song that is already loaded?
+    if (currentSongKey === song && currentAudio) {
+        if (currentAudio.paused) {
+            currentAudio.play();
+            console.log(`▶️ Resuming: ${songNames[song]}`);
+        } else {
+            currentAudio.pause();
+            console.log(`⏸️ Paused: ${songNames[song]}`);
+        }
+        return; 
+    }
+
+    // 2. Clicked a different song (or switching from an instrument)
+    if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0; 
+        
+        // Make sure we remove the visual 'playing' state from instrument buttons if one was active
+        if (currentButton) currentButton.classList.remove('audio-playing');
+    }
+
+    // 🔴 THE FIX: Clear the instrument trackers so they don't conflict
+    currentInstrument = null;
+    currentButton = null;
+
+    // 3. Load and play the new song
+    currentSongKey = song; 
+    currentAudio = new Audio(`/Songs/${song}.mp3`);
+    
+    currentAudio.play().then(() => {
+        console.log(`🎵 Now playing: ${songNames[song]}`);
+    }).catch(error => {
+        console.error("Error playing audio:", error);
+    });
+    
+    // Good practice: clear the tracker when the song finishes naturally
+    currentAudio.addEventListener('ended', () => {
+        currentAudio = null;
+        currentSongKey = null;
+    });
+}
+
+function stopSong() {
+    if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0; 
+        if (currentButton) currentButton.classList.remove('audio-playing');
+        console.log("⏹️ Music/Sound stopped.");
+        
+        // 🔴 THE FIX: Reset ALL trackers so the next click starts fresh
+        currentAudio = null;
+        currentInstrument = null;
+        currentSongKey = null;
+        currentButton = null;
+    }
+}
+        // Scroll animations
+        const fadeElements = document.querySelectorAll('.fade-in');
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        fadeElements.forEach(el => observer.observe(el));
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                    // Close mobile menu if open
+                    document.getElementById('navLinks').classList.remove('active');
+                }
+            });
+        });
+    </script>
+<style>
+        :root {
+            --primary: #c41e3a;
+            --primary-dark: #8b0000;
+            --gold: #d4af37;
+            --cream: #faf8f5;
+            --dark: #1a1a2e;
+            --text: #333;
+            --text-light: #666;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--cream);
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            background: transparent;
+        }
+
+        nav.scrolled {
+            background: rgba(26, 26, 46, 0.95);
+            padding: 0.7rem 5%;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo span {
+            color: var(--gold);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gold);
+            transition: width 0.3s;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .menu-toggle {
+            display: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            overflow: hidden;
+        }
+
+        .hero-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -2;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.7));
+            z-index: -1;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            padding: 0 2rem;
+            animation: fadeInUp 1s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        }
+
+        .hero h1 span {
+            color: var(--gold);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .btn:hover {
+            background: transparent;
+            border-color: white;
+            transform: translateY(-3px);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--gold);
+            color: var(--gold);
+            margin-left: 1rem;
+        }
+
+        .btn-outline:hover {
+            background: var(--gold);
+            color: var(--dark);
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+
+        .scroll-indicator i {
+            font-size: 2rem;
+            color: white;
+            opacity: 0.7;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+            40% { transform: translateX(-50%) translateY(-15px); }
+            60% { transform: translateX(-50%) translateY(-7px); }
+        }
+
+        /* Quick Facts */
+        .quick-facts {
+            background: var(--dark);
+            padding: 4rem 5%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .fact-card {
+            padding: 2rem;
+            color: white;
+        }
+
+        .fact-card i {
+            font-size: 2.5rem;
+            color: var(--gold);
+            margin-bottom: 1rem;
+        }
+
+        .fact-card h3 {
+            font-size: 2.5rem;
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 0.5rem;
+        }
+
+        .fact-card p {
+            opacity: 0.8;
+            font-size: 0.95rem;
+        }
+
+        /* Festival Countdown */
+        .countdown-section {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+            padding: 5rem 5%;
+            text-align: center;
+            color: white;
+        }
+
+        .countdown-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .countdown-section .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+        }
+
+        .countdown-container {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .countdown-box {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem 2rem;
+            border-radius: 15px;
+            min-width: 100px;
+        }
+
+        .countdown-box .number {
+            font-size: 3rem;
+            font-weight: 700;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .countdown-box .label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .festival-info {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 6rem 5%;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            color: var(--dark);
+            margin-bottom: 1rem;
+        }
+
+        .section-header p {
+            color: var(--text-light);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section-header .underline {
+            width: 80px;
+            height: 4px;
+            background: var(--gold);
+            margin: 1.5rem auto 0;
+        }
+
+        /* Featured Story */
+        .featured-story {
+            background: white;
+            padding: 6rem 5%;
+        }
+
+        .story-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .story-image {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+        }
+
+        .story-image img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+
+        .story-image:hover img {
+            transform: scale(1.05);
+        }
+
+        .story-badge {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: var(--gold);
+            color: var(--dark);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+
+        .story-content h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            color: var(--dark);
+            margin-bottom: 1rem;
+        }
+
+        .story-content p {
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+        }
+
+        .story-content .btn {
+            background: var(--primary);
+        }
+
+        /* History Timeline */
+        .history-section {
+            background: var(--cream);
+        }
+
+        .timeline {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: var(--gold);
+        }
+
+        .timeline-item {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 50%;
+            position: relative;
+            margin-bottom: 3rem;
+        }
+
+        .timeline-item:nth-child(even) {
+            justify-content: flex-start;
+            padding-right: 0;
+            padding-left: 50%;
+        }
+
+        .timeline-content {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            max-width: 400px;
+            position: relative;
+            margin-right: 30px;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-right: 0;
+            margin-left: 30px;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            right: calc(50% - 12px);
+            width: 24px;
+            height: 24px;
+            background: var(--primary);
+            border: 4px solid var(--gold);
+            border-radius: 50%;
+        }
+
+        .timeline-item:nth-child(even) .timeline-dot {
+            right: auto;
+            left: calc(50% - 12px);
+        }
+
+        .timeline-content h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-content .date {
+            color: var(--gold);
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-content p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* Architecture */
+        .architecture-section {
+            background: white;
+        }
+
+        .arch-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .arch-card {
+            background: var(--cream);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .arch-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        .arch-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .arch-card-content {
+            padding: 2rem;
+        }
+
+        .arch-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        .arch-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* Interactive Map */
+        .map-section {
+            background: var(--dark);
+            color: white;
+        }
+
+        .map-section .section-header h2 {
+            color: white;
+        }
+
+        .map-section .section-header p {
+            color: rgba(255,255,255,0.7);
+        }
+
+        .map-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            align-items: start;
+        }
+
+        .nepal-map {
+            position: relative;
+        }
+
+        .nepal-map svg {
+            width: 100%;
+            height: auto;
+        }
+
+        .nepal-map path {
+            fill: var(--primary);
+            stroke: var(--gold);
+            stroke-width: 2;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .nepal-map path:hover,
+        .nepal-map path.active {
+            fill: var(--gold);
+        }
+
+        .region-info {
+            background: rgba(255,255,255,0.1);
+            padding: 2.5rem;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .region-info h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--gold);
+            margin-bottom: 1rem;
+        }
+
+        .region-info h4 {
+            font-size: 1.1rem;
+            margin: 1.5rem 0 0.5rem;
+            color: white;
+        }
+
+        .region-info p,
+        .region-info ul {
+            color: rgba(255,255,255,0.8);
+        }
+
+        .region-info ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .region-info ul li {
+            background: rgba(255,255,255,0.15);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        .region-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .region-btn {
+            flex: 1;
+            padding: 1rem;
+            border: 2px solid rgba(255,255,255,0.3);
+            background: transparent;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+
+        .region-btn:hover,
+        .region-btn.active {
+            background: var(--gold);
+            border-color: var(--gold);
+            color: var(--dark);
+        }
+
+        /* Traditions Gallery */
+        .traditions-section {
+            background: var(--cream);
+        }
+
+        .traditions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .tradition-card {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            height: 350px;
+            cursor: pointer;
+        }
+
+        .tradition-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+
+        .tradition-card:hover img {
+            transform: scale(1.1);
+        }
+
+        .tradition-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 2rem;
+            background: linear-gradient(transparent, rgba(0,0,0,0.9));
+            color: white;
+        }
+
+        .tradition-overlay h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .tradition-overlay p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* Language Corner */
+        .language-section {
+            background: white;
+        }
+
+        .language-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .language-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .lang-tab {
+            padding: 0.8rem 2rem;
+            border: 2px solid var(--primary);
+            background: transparent;
+            color: var(--primary);
+            border-radius: 50px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .lang-tab:hover,
+        .lang-tab.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        .phrases-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .phrase-card {
+            background: var(--cream);
+            padding: 1.5rem;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            transition: transform 0.3s;
+        }
+
+        .phrase-card:hover {
+            transform: translateX(10px);
+        }
+
+        .phrase-card .play-btn {
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: background 0.3s;
+        }
+
+        .phrase-card .play-btn:hover {
+            background: var(--primary-dark);
+        }
+
+        .phrase-text {
+            flex: 1;
+        }
+
+        .phrase-text .english {
+            font-weight: 600;
+            color: var(--dark);
+            margin-bottom: 0.3rem;
+        }
+
+        .phrase-text .nepali {
+            color: var(--primary);
+            font-size: 1.1rem;
+        }
+
+        .phrase-text .pronunciation {
+            color: var(--text-light);
+            font-size: 0.85rem;
+            font-style: italic;
+        }
+
+        /* Festivals Section */
+        .festivals-section {
+            background: var(--cream);
+        }
+
+        .festival-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .festival-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+
+        .festival-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .festival-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .festival-card-content {
+            padding: 2rem;
+        }
+
+        .festival-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .festival-card .date {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .festival-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* Religious Harmony */
+        .religion-section {
+            background: white;
+        }
+
+        .religion-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .religion-card {
+            background: var(--cream);
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .religion-card img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 1.5rem;
+            border: 4px solid var(--gold);
+        }
+
+        .religion-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--dark);
+            margin-bottom: 1rem;
+        }
+
+        .religion-card p {
+            color: var(--text-light);
+        }
+
+        /* Kumari Section */
+        .kumari-section {
+            background: linear-gradient(135deg, var(--dark), #2a2a4a);
+            color: white;
+        }
+
+        .kumari-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            align-items: center;
+        }
+
+        .kumari-text h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--gold);
+        }
+
+        .kumari-text p {
+            opacity: 0.9;
+            margin-bottom: 1rem;
+        }
+
+        .kumari-image img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+        }
+
+        /* Cuisine Section */
+        .cuisine-section {
+            background: var(--cream);
+        }
+
+        .cuisine-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .dish-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        .dish-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .dish-card-content {
+            padding: 1.5rem;
+        }
+
+        .dish-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .dish-card p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .recipe-btn {
+            background: var(--gold);
+            color: var(--dark);
+            border: none;
+            padding: 0.6rem 1.5rem;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .recipe-btn:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Tea Section */
+        .tea-section {
+            background: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tea-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            align-items: center;
+        }
+
+        .tea-text h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            color: var(--dark);
+            margin-bottom: 1.5rem;
+        }
+
+        .tea-text p {
+            color: var(--text-light);
+            margin-bottom: 1rem;
+        }
+
+        .tea-image img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+        }
+
+        /* Arts Section */
+        .arts-section {
+            background: var(--dark);
+            color: white;
+        }
+
+        .arts-section .section-header h2 {
+            color: white;
+        }
+
+        .arts-section .section-header p {
+            color: rgba(255,255,255,0.7);
+        }
+
+        .crafts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .craft-card {
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        .craft-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .craft-card-content {
+            padding: 2rem;
+        }
+
+        .craft-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .craft-card p {
+            color: rgba(255,255,255,0.8);
+            font-size: 0.95rem;
+        }
+
+        /* Music Section */
+        .music-section {
+            background: var(--cream);
+        }
+
+        .music-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .instrument-showcase {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .instrument-card {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+
+        .instrument-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .instrument-card img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 1.5rem;
+        }
+
+        .instrument-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .instrument-card p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .sound-btn {
+            width: 60px;
+            height: 60px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5rem;
+            transition: all 0.3s;
+        }
+
+        .sound-btn:hover {
+            background: var(--primary-dark);
+            transform: scale(1.1);
+        }
+
+        .folk-songs {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+        }
+
+        .folk-songs h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--dark);
+        }
+
+        .song-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .song-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: var(--cream);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .song-item:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        .song-item:hover .song-title {
+            color: white;
+        }
+
+        .song-item i {
+            font-size: 1.5rem;
+            color: var(--gold);
+        }
+
+        .song-title {
+            font-weight: 500;
+            color: var(--dark);
+        }
+
+        .song-duration {
+            margin-left: auto;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        /* Recipe Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 20px;
+            max-width: 600px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            z-index: 10;
+        }
+
+        .modal-header {
+            padding: 2rem;
+            background: var(--cream);
+        }
+
+        .modal-header h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--dark);
+        }
+
+        .modal-body {
+            padding: 2rem;
+        }
+
+        .modal-body h4 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .modal-body ul {
+            margin-bottom: 2rem;
+            padding-left: 1.5rem;
+        }
+
+        .modal-body li {
+            margin-bottom: 0.5rem;
+            color: var(--text-light);
+        }
+
+        .modal-body ol li {
+            margin-bottom: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 4rem 5% 2rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            max-width: 1200px;
+            margin: 0 auto 3rem;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            color: var(--gold);
+        }
+
+        .footer-section p {
+            color: rgba(255,255,255,0.7);
+            line-height: 1.8;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.8rem;
+        }
+
+        .footer-section ul a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section ul a:hover {
+            color: var(--gold);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-links a {
+            width: 45px;
+            height: 45px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .social-links a:hover {
+            background: var(--gold);
+            color: var(--dark);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: rgba(255,255,255,0.5);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .hero h1 {
+                font-size: 3rem;
+            }
+
+            .story-card,
+            .map-container,
+            .kumari-content,
+            .tea-content,
+            .religion-container {
+                grid-template-columns: 1fr;
+            }
+
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item,
+            .timeline-item:nth-child(even) {
+                padding-left: 50px;
+                padding-right: 0;
+            }
+
+            .timeline-dot,
+            .timeline-item:nth-child(even) .timeline-dot {
+                left: 8px;
+                right: auto;
+            }
+
+            .timeline-content,
+            .timeline-item:nth-child(even) .timeline-content {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: var(--dark);
+                flex-direction: column;
+                padding: 2rem;
+                gap: 1.5rem;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .btn {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+            }
+
+            .btn-outline {
+                margin-left: 0;
+                margin-top: 1rem;
+            }
+
+            .section-header h2 {
+                font-size: 2rem;
+            }
+
+            .countdown-box .number {
+                font-size: 2rem;
+            }
+
+            .region-buttons {
+                flex-direction: column;
+            }
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Audio Player Styles */
+        .audio-playing {
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+    </style>
+</body>
+</html>
